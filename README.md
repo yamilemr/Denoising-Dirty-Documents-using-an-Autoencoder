@@ -1,12 +1,13 @@
-# **ELiminación de Ruido de Documentos usando un Autoencoder**
+# **Eliminación de Ruido de Documentos usando un Autoencoder**
 
-Este proyecto implementa un autoencoder convolucional para eliminar el ruido de imágenes de documentos, mejorando su legibilidad y calidad. El modelo se entrena con un conjunto de datos que contiene imágenes ruidosas con sus versiones limpias, con el objetivo de restaurar las imágenes ruidosas.
+Este proyecto implementa un autoencoder convolucional para eliminar el ruido de imágenes de documentos, mejorando su legibilidad y calidad. El modelo se entrena con un conjunto de datos que contiene imágenes ruidosas con sus versiones limpias.
 
 ## Características principales
-* **Autoencoder Convolucional:** Arquitectura eficiente para procesamiento de imágenes, compuesta por un encoder y un decoder.
+* **Autoencoder Convolucional:** Arquitectura eficiente para el procesamiento de imágenes, compuesta por un encoder y un decoder.
 * **Entrenamiento:** Modelo entrenado para minimizar el error cuadrático medio (MSE) entre las imágenes limpias y las reconstruidas.
-* **Métricas de evaluación:** Incluye MSE, PSNR y SSIM para medir la calidad de la reconstrucción.
-* **Visualización:** Herramientas para comparar imágenes originales, limpias y reconstruidas.
+* **Análisis de desempeño del modelo:** Se generó una gráfica de la curva de pérdida durante el entrenamiento y un histograma de errores por pixel.
+* **Métricas de evaluación:** Incluye MSE, PSNR y SSIM promedio para medir la calidad de la reconstrucción.
+* **Visualización de las reconstrucciones:** Herramientas para comparar imágenes originales, limpias y reconstruidas.
 
 ## Resultados
 El modelo logra reducir significativamente el ruido en los documentos, manteniendo la estructura y legibilidad del texto. Las métricas obtenidas son:
